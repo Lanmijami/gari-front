@@ -1,0 +1,29 @@
+.heading {
+  color: black;
+  margin-top: 40px;
+}
+
+.form2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form2 input {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.button {
+  background-color: white;
+  font-size: 1.3rem;
+
+  padding: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(125, 188, 239);
+}

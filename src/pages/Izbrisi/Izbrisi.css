@@ -1,0 +1,21 @@
+.izbrisi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.izbrisi-container button {
+  background-color: white;
+  font-size: 3rem;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10%;
+  border: 2px solid rgb(45, 109, 247);
+}
+
+.izbrisi-container button:hover {
+  cursor: pointer;
+  background-color: rgb(106, 162, 234);
+}

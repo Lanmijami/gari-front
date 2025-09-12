@@ -1,0 +1,42 @@
+.login-helper {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form h1,
+input {
+  color: black;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.login-button {
+  padding: 10px;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  background-color: white;
+  align-self: start;
+  width: 100px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  cursor: pointer;
+  background-color: rgb(147, 175, 227);
+}
+
+.link {
+  align-self: start;
+}
