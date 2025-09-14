@@ -52,7 +52,7 @@ const DodajGarije = () => {
 
   return (
     <div>
-      <div className="gari-container">
+      <div className="dodaj-garije-container">
         <form className="form2" onSubmit={handleAddGari}>
           <h1 className="heading">Dodaj novog Garija:</h1>
           <input
