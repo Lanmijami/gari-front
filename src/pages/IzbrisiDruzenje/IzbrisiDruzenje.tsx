@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
-import '../Izbrisi/Izbrisi.css';
 
-const Izbrisi = () => {
+const IzbrisiDruzenje = () => {
   const [error, setError] = useState('');
   const handleDelete = async (e: React.FormEvent) => {
     e.preventDefault();
 
     try {
       const response = await fetch(
-        `${process.env.REACT_APP_API_URL}/api/Garis/${id}`,
+        `${process.env.REACT_APP_API_URL}/api/Druzenje/${id}`,
         {
           method: 'DELETE',
           headers: {
@@ -20,15 +19,8 @@ const Izbrisi = () => {
       );
 
       if (response.ok) {
-        const data = await response.json();
-        console.log('Deleting success', data);
-
-        if (data.token) {
-          localStorage.setItem('token', data.token);
-        }
-
-        alert(`Uspesno je izbrisan Gari`);
-        window.location.href = '/#/MojiGariji';
+        alert(`Uspesno je izbrisano druzenje`);
+        window.location.href = '/#/Druzenja';
       } else {
         setError('Error');
       }
@@ -50,4 +42,4 @@ const Izbrisi = () => {
   );
 };
 
-export default Izbrisi;
+export default IzbrisiDruzenje;

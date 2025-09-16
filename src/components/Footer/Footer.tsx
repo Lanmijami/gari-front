@@ -8,6 +8,8 @@ const Footer = () => {
       <Link to="/Home">Home</Link>
       <Link to="/MojiGariji">Moji gariji</Link>
       <Link to="/DodajGarije">Dodaj garija</Link>
+      <Link to="/Druzenja">Moja Druzenja</Link>
+      <Link to="/DodajDruzenje">Dodaj druzenje</Link>
       <Link to="/">Log out</Link>
     </div>
   );

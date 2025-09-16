@@ -12,6 +12,9 @@ import MojiGariji from './pages/MojiGariji';
 import LogIn from './pages/LogIn/LogIn';
 import Izmeni from './pages/Izmeni/Izmeni';
 import Izbrisi from './pages/Izbrisi/Izbrisi';
+import Druzenja from './pages/Druzenja/Druzenja';
+import DodajDruzenje from './pages/DodajDruzenje/DodajDruzenje';
+import IzbrisiDruzenje from './pages/IzbrisiDruzenje/IzbrisiDruzenje';
 
 function App() {
   return (
@@ -26,6 +29,12 @@ function App() {
           <Route path="/DodajGarije" element={<DodajGarije />} />
           <Route path="/LogOut" element={<LogOut />} />
           <Route path="/MojiGariji" element={<MojiGariji />} />
+          <Route path="/Druzenja" element={<Druzenja />} />
+          <Route path="/DodajDruzenje" element={<DodajDruzenje />} />
+          <Route
+            path="/MojaDruzenja/:id/Izbrisi"
+            element={<IzbrisiDruzenje />}
+          />
         </Routes>
       </Router>
 

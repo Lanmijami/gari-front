@@ -1,0 +1,29 @@
+.dodaj-druzenje-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.garis-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dodaj-druzenje-button {
+  background-color: white;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(45, 109, 247);
+}
+
+.dodaj-druzenje-button:hover {
+  cursor: pointer;
+  background-color: rgb(176, 216, 242);
+}
+
+.dodaj-druzenje-h1 {
+  color: black;
+}
