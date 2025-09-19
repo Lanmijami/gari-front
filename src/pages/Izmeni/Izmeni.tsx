@@ -53,7 +53,7 @@ const Izmeni = () => {
   };
 
   return (
-    <div>
+    <div className="izmeni-flex">
       <div className="gari-container">
         <form className="form2" onSubmit={handleAddGari}>
           <h1 className="heading">Izmeni podatke o Gariju:</h1>

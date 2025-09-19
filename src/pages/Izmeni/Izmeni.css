@@ -1,0 +1,9 @@
+.izmeni-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gari-container {
+  margin-top: 100px;
+}
